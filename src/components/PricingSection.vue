@@ -1,0 +1,160 @@
+<template>
+  <section class="section-padding gradient-bg">
+    <div class="container-custom">
+      <div class="max-w-4xl mx-auto">
+        <!-- Header -->
+        <div class="text-center mb-16 animate-on-scroll">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+            Quanto custa <span class="text-gradient">participar</span>?
+          </h2>
+          <p class="text-xl text-gray-600 dark:text-gray-300">
+            Simples, direto e transparente:
+          </p>
+        </div>
+        
+        <!-- Pricing Card -->
+        <div class="animate-on-scroll" style="animation-delay: 0.2s;">
+          <div class="relative">
+            <!-- Main Pricing Card -->
+            <div class="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl p-8 md:p-12 border border-gray-100 dark:border-gray-700 relative overflow-hidden">
+              <!-- Background Pattern -->
+              <div class="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-primary-100 to-green-100 dark:from-primary-900/30 dark:to-green-900/30 rounded-full -mr-20 -mt-20"></div>
+              
+              <!-- Popular Badge -->
+              <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                <span class="bg-gradient-to-r from-primary-500 to-green-500 text-white px-6 py-2 rounded-full text-sm font-semibold shadow-lg">
+                  🔥 Programa Mais Procurado
+                </span>
+              </div>
+              
+              <div class="relative text-center">
+                <!-- Price -->
+                <div class="mb-8">
+                  <div class="flex items-center justify-center gap-4 mb-4">
+                    <div class="text-center">
+                      <div class="text-4xl md:text-5xl font-bold text-primary-600 dark:text-primary-400">
+                        R$ 300
+                      </div>
+                      <div class="text-gray-600 dark:text-gray-400 text-sm">
+                        por mês
+                      </div>
+                    </div>
+                    
+                    <div class="text-2xl text-gray-400">+</div>
+                    
+                    <div class="text-center">
+                      <div class="text-4xl md:text-5xl font-bold text-green-600 dark:text-green-400">
+                        7%
+                      </div>
+                      <div class="text-gray-600 dark:text-gray-400 text-sm">
+                        de comissão sobre vendas
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="inline-block bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 px-4 py-2 rounded-full text-sm font-semibold">
+                    Contrato de 18 meses
+                  </div>
+                </div>
+                
+                <!-- Benefits -->
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                  <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                      <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                      </svg>
+                      <span class="text-gray-700 dark:text-gray-300">Loja virtual completa</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                      <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                      </svg>
+                      <span class="text-gray-700 dark:text-gray-300">Cadastro de produtos</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                      <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                      </svg>
+                      <span class="text-gray-700 dark:text-gray-300">Configuração de pagamentos</span>
+                    </div>
+                  </div>
+                  
+                  <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                      <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                      </svg>
+                      <span class="text-gray-700 dark:text-gray-300">Gestão por 18 meses</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                      <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                      </svg>
+                      <span class="text-gray-700 dark:text-gray-300">Suporte contínuo</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                      <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                      </svg>
+                      <span class="text-gray-700 dark:text-gray-300">Orientações de vendas</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Value Proposition -->
+                <div class="bg-gradient-to-r from-primary-50 to-green-50 dark:from-primary-900/30 dark:to-green-900/30 p-6 rounded-2xl mb-8">
+                  <p class="text-lg text-gray-700 dark:text-gray-300 mb-2">
+                    Isso garante a você um <strong class="text-primary-600 dark:text-primary-400">custo acessível</strong>, 
+                    enquanto me dá incentivo para acelerar seu negócio.
+                  </p>
+                  <p class="text-xl font-semibold text-gray-900 dark:text-white">
+                    Eu só ganho de verdade quando <span class="text-green-600 dark:text-green-400">você vende de verdade</span>.
+                  </p>
+                </div>
+                
+                <!-- CTA Button -->
+                <a 
+                  href="https://wa.me/5571991306327" 
+                  target="_blank"
+                  class="btn-whatsapp text-lg animate-border-glow group inline-flex"
+                >
+                  <svg class="w-6 h-6 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                  </svg>
+                  Quero conversar sobre minha loja
+                </a>
+              </div>
+            </div>
+            
+            <!-- Floating Elements -->
+            <div class="absolute -top-6 -left-6 w-12 h-12 bg-primary-200 dark:bg-primary-700 rounded-full opacity-60 animate-pulse-slow"></div>
+            <div class="absolute -bottom-6 -right-6 w-16 h-16 bg-green-200 dark:bg-green-700 rounded-full opacity-60 animate-pulse-slow" style="animation-delay: 1s;"></div>
+          </div>
+        </div>
+        
+        <!-- Additional Info -->
+        <div class="animate-on-scroll mt-12 text-center" style="animation-delay: 0.4s;">
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-700 max-w-2xl mx-auto">
+            <div class="flex items-center justify-center gap-3 mb-4">
+              <svg class="w-6 h-6 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+                Garantia de Transparência
+              </h3>
+            </div>
+            <p class="text-gray-600 dark:text-gray-300">
+              Sem taxas ocultas, sem surpresas. Você paga exatamente o que está descrito: 
+              R$ 300/mês + 7% sobre vendas realizadas. Simples assim.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script setup>
+// Component logic can be added here if needed
+</script>

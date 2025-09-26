@@ -1,0 +1,20 @@
+{
+  "name": "RAGNAR Start - Acelere seu negócio online",
+  "short_name": "RAGNAR Start",
+  "description": "Seu parceiro temporário para acelerar seu negócio online",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "pt-BR"
+}

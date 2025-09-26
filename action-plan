@@ -1,0 +1,277 @@
+🚀 Prompt para TRAE — Landing Page Vue 3 (RAGNAR Start)
+
+Quero que você atue como um desenvolvedor sênior especializado em Vue 3 (Composition API), TailwindCSS e animações modernas.
+
+Sua tarefa é criar uma landing page completa e componentizada para o programa oficial da Agência RAGNAR chamado RAGNAR Start — Programa de Aceleração de E-commerces Iniciantes.
+
+🔹 Requisitos Técnicos
+
+Framework: Vue 3 com Composition API.
+
+Estilo: TailwindCSS.
+
+Arquitetura: tudo componentizado (Hero, Features, Pricing, Testimonials, FAQ, CTA, Footer).
+
+Design: moderno, clean e elegante, com:
+
+Efeitos suaves (parallax, fade-in, slide).
+
+Bordas animadas minimalistas.
+
+Toggle para modo claro/escuro.
+
+Layout 100% responsivo (mobile first).
+
+Performance: foco em carregamento rápido e boas práticas.
+
+🔹 Estrutura da Página
+
+Hero Section
+
+Headline persuasiva:
+
+“Sua loja virtual pronta e acelerada — sem investimento alto inicial.”
+
+Subheadline:
+
+“O Programa RAGNAR Start coloca seu e-commerce no ar e acompanha sua evolução. Você paga pouco por mês e eu só ganho de verdade quando você vender.”
+
+CTA: botão verde chamativo com ícone do WhatsApp → https://wa.me/5571991306327
+Texto do botão: “Quero participar do programa”
+
+Como Funciona (Steps / Features)
+
+Ícones e animações para cada etapa:
+
+Criação da loja virtual.
+
+Cadastro inicial de produtos.
+
+Configuração de pagamentos/frete.
+
+Gestão contínua por 18 meses.
+
+Suporte + orientações de vendas.
+
+Proposta de Valor (Seção Persuasiva)
+
+Título: “Por que o RAGNAR Start é diferente?”
+
+Bullets de diferenciais:
+
+Sem custo inicial pesado.
+
+Eu ganho junto com você (comissão sobre vendas).
+
+Loja completa, profissional e pronta para escalar.
+
+Gestão e acompanhamento contínuo.
+
+Modelo Financeiro (Pricing Section)
+
+Card com destaque:
+
+R$300/mês fixos + 7% de comissão sobre vendas
+
+Contrato de 18 meses.
+
+CTA secundária: botão para WhatsApp.
+
+Prova Social (Testimonials)
+
+Espaço para depoimento da Poli Freire (autoridade do mercado de personalização).
+
+Espaço para novos depoimentos futuros.
+
+FAQ (Perguntas Frequentes)
+
+“E se eu não vender nada?”
+
+“Posso cancelar o contrato antes de 18 meses?”
+
+“Eu preciso ter estoque pronto?”
+
+“Vocês também ajudam a divulgar minha loja?”
+
+CTA Final (Fundo Escuro com Animação Suave)
+
+Headline: “Pronto para acelerar seu e-commerce sem arriscar pesado?”
+
+Botão gigante do WhatsApp:
+“Quero participar agora” → https://wa.me/5571991306327
+
+Footer
+
+Logo RAGNAR (placeholder).
+
+Links: Política de Privacidade, Termos.
+
+Copyright © 2025 Agência RAGNAR.
+
+🔹 Regras de Copy
+
+Tom: profissional, direto e persuasivo.
+
+Evite jargões técnicos.
+
+Use frases curtas, impacto emocional e foco em segurança + crescimento.
+
+Sempre terminar seções com CTA para WhatsApp.
+
+🔹 Extras
+
+Criar transições suaves entre seções com parallax e fade-in.
+
+Usar gradientes modernos e dark mode toggle para reforçar a identidade.
+
+Estruturar componentes de forma escalável (/components/Hero.vue, /components/Features.vue, etc).
+
+📌 Resumo: Gere o código de uma landing page Vue 3, componentizada, com TailwindCSS, responsiva, com modo claro/escuro, copy persuasiva baseada na proposta do Programa RAGNAR Start, CTA’s para WhatsApp e efeitos visuais modernos mas sem exageros.
+
+
+
+
+
+copy base para desenvolvimento da landing page:
+
+🌐 Landing Page — Programa RAGNAR Start
+Hero (Abertura)
+
+Headline:
+👉 Sua loja virtual pronta e acelerada — sem investimento alto inicial.
+
+Subheadline:
+Você sabe que precisa estar no digital. Mas talvez o que te trava hoje seja o custo inicial de ter uma loja bem feita.
+O RAGNAR Start resolve isso: eu monto sua loja, gero tração junto com você e só ganho de verdade quando você vender.
+
+CTA:
+Quero participar agora no WhatsApp
+
+Seção 1 — A dor (Problema do público)
+
+Você já pensou em ter sua própria loja online, mas:
+
+Os preços que te pediram eram altos demais.
+
+Você não tinha certeza se realmente iria vender.
+
+Ficou com medo de investir e perder dinheiro.
+
+👉 Esse é o maior motivo pelo qual milhares de pessoas desistem antes mesmo de começar.
+
+E é exatamente aqui que o RAGNAR Start entra.
+
+Seção 2 — A Solução (O que é o Programa)
+
+Título: O que é o RAGNAR Start?
+
+É o programa oficial da Agência RAGNAR criado para quem está começando e não pode arcar com altos custos.
+
+Com ele, você terá:
+
+Sua loja virtual construída do zero, profissional e pronta para vender.
+
+Cadastro inicial dos seus produtos.
+
+Configuração completa de pagamentos, frete e integrações.
+
+Gestão contínua da loja por 18 meses.
+
+Suporte e orientação prática para atrair seus primeiros clientes.
+
+E o melhor:
+Você não paga um valor absurdo de entrada.
+Você entra no digital com custo acessível + comissão sobre vendas.
+
+Seção 3 — Proposta de Valor (Diferenciais)
+
+Título: Por que o RAGNAR Start é diferente?
+
+Enquanto outros te cobram caro só para te entregar uma loja e te deixar sozinho, aqui eu entro como seu sócio temporário.
+
+Sem custo inicial pesado.
+
+Eu só ganho se você vender.
+
+Loja completa, com padrão profissional.
+
+Gestão e acompanhamento de verdade.
+
+👉 Você não está pagando por “um site”.
+Você está entrando em um programa de aceleração.
+
+Seção 4 — Modelo Financeiro
+
+Título: Quanto custa participar?
+
+Simples, direto e transparente:
+
+R$300/mês fixos
+
++7% de comissão sobre as vendas
+
+Contrato de 18 meses
+
+Isso garante a você um custo acessível, enquanto me dá incentivo para acelerar seu negócio.
+Eu só ganho de verdade quando você vende de verdade.
+
+CTA:
+Quero conversar sobre minha loja no WhatsApp
+
+Seção 5 — Prova Social
+
+Título: Quem já confia no meu trabalho?
+
+Uma das maiores referências do mercado de personalização, Poli Freire, já confiou em mim para gerenciar suas lojas.
+
+“Ter o suporte da RAGNAR fez toda a diferença. Para quem está começando, é a melhor forma de entrar no digital sem se perder ou gastar fortunas.”
+— Poli Freire
+
+Seção 6 — FAQ (Perguntas Frequentes)
+
+Título: Ainda com dúvidas?
+
+E se eu não vender nada?
+Você terá sua loja pronta e funcionando. A diferença é que meu interesse é o mesmo que o seu: fazer você vender.
+
+Posso cancelar antes de 18 meses?
+Sim, mas existe uma cláusula de saída (como em qualquer parceria). Isso protege tanto você quanto eu.
+
+Preciso ter estoque pronto?
+Sim, você precisa ao menos ter insumos ou produtos para cadastrar. Eu cuido do resto.
+
+Vocês também ajudam a divulgar minha loja?
+Sim. Parte da gestão inclui orientar estratégias de venda e tráfego básico.
+
+Seção 7 — CTA Final
+
+Título: Está pronto para acelerar sua loja?
+
+O mercado não espera.
+Se você não estiver no digital, alguém do seu nicho estará.
+
+O RAGNAR Start é sua chance de entrar agora com segurança, sem investir pesado.
+
+👉 Eu monto sua loja.
+👉 Eu gero tração junto com você.
+👉 E só ganho de verdade quando você ganhar.
+
+CTA (destaque com borda animada):
+Quero participar do programa agora
+
+Footer
+
+Agência RAGNAR • Programa Start
+© 2025 — Todos os direitos reservados
+
+⚡ Essa copy é construída para:
+
+Gerar identificação (dor de não conseguir investir).
+
+Oferecer solução clara (programa acessível).
+
+Posicionar você como sócio temporário, não só prestador.
+
+Criar urgência e decisão (mercado não espera).
+
+Focar em CTA’s diretos para WhatsApp (venda consultiva).
