@@ -1,5 +1,13 @@
 <template>
   <div :class="{ 'dark': isDarkMode }" class="min-h-screen">
+    <!-- Skip Link for Accessibility -->
+    <a 
+      href="#main-content" 
+      class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-primary-600 text-white px-4 py-2 rounded-lg z-50 focus:outline-none focus:ring-2 focus:ring-primary-300"
+    >
+      Pular para o conteúdo principal
+    </a>
+    
     <!-- Dark Mode Toggle -->
     <div class="fixed top-4 right-4 z-50">
       <button
@@ -18,15 +26,23 @@
 
     <!-- Main Content -->
     <div class="bg-white dark:bg-gray-900 transition-colors duration-300">
-      <HeroSection />
-      <PainSection />
-      <SolutionSection />
-      <ValuePropositionSection />
-      <PricingSection />
-      <TestimonialsSection />
-      <FAQSection />
-      <FinalCTASection />
-      <FooterSection />
+      <header>
+        <HeroSection />
+      </header>
+      
+      <main id="main-content">
+         <PainSection />
+        <SolutionSection />
+        <ValuePropositionSection />
+        <PricingSection />
+        <TestimonialsSection />
+        <FAQSection />
+        <FinalCTASection />
+      </main>
+      
+      <footer>
+        <FooterSection />
+      </footer>
     </div>
   </div>
 </template>

@@ -19,9 +19,15 @@
             <div 
               class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-700 overflow-hidden cursor-pointer transition-all duration-300 hover:shadow-xl"
               @click="toggleFAQ(0)"
+              role="button"
+              :aria-expanded="openFAQ === 0"
+              aria-controls="faq-content-0"
+              tabindex="0"
+              @keydown.enter="toggleFAQ(0)"
+              @keydown.space.prevent="toggleFAQ(0)"
             >
               <div class="p-6 flex items-center justify-between">
-                <h3 class="text-lg md:text-xl font-semibold text-gray-900 dark:text-white pr-4">
+                <h3 class="text-lg md:text-xl font-semibold text-gray-900 dark:text-white pr-4" id="faq-title-0">
                   E se eu não vender nada?
                 </h3>
                 <div class="flex-shrink-0">
@@ -31,6 +37,7 @@
                     fill="none" 
                     stroke="currentColor" 
                     viewBox="0 0 24 24"
+                    aria-hidden="true"
                   >
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
@@ -39,6 +46,9 @@
               <div 
                 :class="{ 'max-h-96 pb-6': openFAQ === 0, 'max-h-0': openFAQ !== 0 }" 
                 class="overflow-hidden transition-all duration-300"
+                id="faq-content-0"
+                role="region"
+                aria-labelledby="faq-title-0"
               >
                 <div class="px-6">
                   <p class="text-gray-600 dark:text-gray-300 leading-relaxed">

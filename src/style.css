@@ -155,3 +155,174 @@
 .animate-slide-in-right {
   animation: slideInRight 0.8s ease-out forwards;
 }
+
+/* Improved contrast and accessibility */
+.text-gray-600 {
+  color: rgb(75 85 99) !important; /* Darker gray for better contrast */
+}
+
+.dark .text-gray-600 {
+  color: rgb(156 163 175) !important; /* Lighter gray for dark mode */
+}
+
+.text-gray-700 {
+  color: rgb(55 65 81) !important; /* Even darker for better readability */
+}
+
+.dark .text-gray-700 {
+  color: rgb(209 213 219) !important; /* Light gray for dark mode */
+}
+
+/* Fix white text on white background in light mode */
+.text-white {
+  color: rgb(255 255 255) !important;
+}
+
+.dark .text-white {
+  color: rgb(255 255 255) !important;
+}
+
+/* Ensure proper contrast for light mode backgrounds */
+.bg-white .text-white {
+  color: rgb(17 24 39) !important; /* Dark text on white background */
+}
+
+.bg-gray-50 .text-white {
+  color: rgb(17 24 39) !important; /* Dark text on light background */
+}
+
+/* Fix span content overflow */
+span {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  max-width: 100%;
+  display: inline-block;
+}
+
+/* Improve section spacing and visual consistency */
+section {
+  min-height: auto;
+  padding: 4rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 2rem 0;
+  }
+}
+
+/* Better button contrast */
+.btn-primary {
+  background: linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%);
+  color: white !important;
+  border: none;
+  padding: 0.875rem 2rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
+  color: white !important;
+}
+
+.btn-whatsapp {
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  color: white !important;
+  border: none;
+  padding: 0.875rem 2rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-whatsapp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+  background: linear-gradient(135deg, #20BA5A 0%, #0F766E 100%);
+  color: white !important;
+}
+
+/* Improved card contrast */
+.bg-white {
+  background-color: rgb(255 255 255) !important;
+  color: rgb(17 24 39) !important;
+}
+
+.dark .bg-white {
+  background-color: rgb(31 41 55) !important;
+  color: rgb(243 244 246) !important;
+}
+
+.bg-gray-50 {
+  background-color: rgb(249 250 251) !important;
+  color: rgb(17 24 39) !important;
+}
+
+.dark .bg-gray-50 {
+  background-color: rgb(17 24 39) !important;
+  color: rgb(243 244 246) !important;
+}
+
+/* Ensure proper text colors for different backgrounds */
+.bg-blue-600 .text-white,
+.bg-gradient-to-r .text-white,
+.gradient-bg .text-white {
+  color: rgb(255 255 255) !important;
+}
+
+/* Screen reader only utility classes for accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* Fix text gradient visibility */
+.text-gradient {
+  background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 50%, #06B6D4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.dark .text-gradient {
+  background: linear-gradient(135deg, #60A5FA 0%, #A78BFA 50%, #22D3EE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
