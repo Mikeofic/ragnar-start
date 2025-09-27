@@ -82,7 +82,7 @@
                 "Em breve, seu depoimento aqui..."
               </p>
               <div class="text-gray-400 dark:text-gray-500 text-sm">
-                Próximo cliente RAGNAR Start
+                Próximo cliente RAGNAR START
               </div>
             </div>
             
@@ -122,7 +122,7 @@
         <div class="animate-on-scroll mt-16" style="animation-delay: 0.6s;">
           <div class="bg-gradient-to-r from-primary-500 to-green-500 p-8 rounded-2xl text-white text-center">
             <h3 class="text-2xl font-bold mb-6">
-              Junte-se aos empreendedores que já escolheram o RAGNAR Start
+              Junte-se aos empreendedores que já escolheram o RAGNAR START
             </h3>
             
             <div class="grid md:grid-cols-3 gap-8">

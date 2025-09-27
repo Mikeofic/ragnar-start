@@ -5,7 +5,7 @@
         <!-- Header -->
         <div class="text-center mb-16 animate-on-scroll">
           <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            O que é o <span class="text-gradient">RAGNAR Start</span>?
+            O que é o <span class="text-gradient">RAGNAR START</span>?
           </h2>
           <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             É o programa oficial da Agência RAGNAR criado para quem está começando e não pode arcar com altos custos.

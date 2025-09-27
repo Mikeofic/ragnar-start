@@ -75,7 +75,7 @@
               👉 Esse é o maior motivo pelo qual <span class="text-primary-600 dark:text-primary-400">milhares de pessoas desistem</span> antes mesmo de começar.
             </p>
             <p class="text-lg text-gray-700 dark:text-gray-300">
-              E é exatamente aqui que o <strong class="text-primary-600 dark:text-primary-400">RAGNAR Start</strong> entra.
+              E é exatamente aqui que o <strong class="text-primary-600 dark:text-primary-400">RAGNAR START</strong> entra.
             </p>
           </div>
         </div>
