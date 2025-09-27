@@ -191,13 +191,32 @@
   color: rgb(17 24 39) !important; /* Dark text on light background */
 }
 
-/* Fix span content overflow */
+/* Ensure proper spacing for span elements to prevent content overflow */
 span {
   word-wrap: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
   max-width: 100%;
   display: inline-block;
+  line-height: inherit;
+  vertical-align: baseline;
+}
+
+/* Fix container heights to prevent overlapping */
+.container-custom {
+  min-height: auto;
+  overflow: visible;
+}
+
+/* Ensure proper spacing for headings with spans */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  overflow: visible;
+}
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+  line-height: inherit;
+  vertical-align: baseline;
 }
 
 /* Improve section spacing and visual consistency */
@@ -318,6 +337,10 @@ section {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 700;
+  line-height: 1.2;
+  display: inline-block;
+  padding: 0.1em 0;
+  margin: 0.05em 0;
 }
 
 .dark .text-gradient {
@@ -325,4 +348,8 @@ section {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  line-height: 1.2;
+  display: inline-block;
+  padding: 0.1em 0;
+  margin: 0.05em 0;
 }

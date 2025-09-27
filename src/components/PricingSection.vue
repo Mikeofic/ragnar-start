@@ -13,19 +13,19 @@
         </div>
         
         <!-- Pricing Card -->
-        <div class="animate-on-scroll" style="animation-delay: 0.2s;">
+        <div class="animate-on-scroll pricing" style="animation-delay: 0.2s;">
           <div class="relative">
+            <!-- Popular Badge (moved outside card to overlap border) -->
+            <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 tag z-20">
+              <span class="bg-gradient-to-r from-primary-500 to-green-500 text-white px-6 py-2 rounded-full text-sm font-semibold shadow-lg">
+                🔥 Programa Mais Procurado
+              </span>
+            </div>
             <!-- Main Pricing Card -->
-            <div class="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl p-8 md:p-12 border border-gray-100 dark:border-gray-700 relative overflow-hidden">
+            <div class="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl p-8 md:p-12 border border-gray-100 dark:border-gray-700 relative z-10 overflow-hidden">
               <!-- Background Pattern -->
               <div class="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-primary-100 to-green-100 dark:from-primary-900/30 dark:to-green-900/30 rounded-full -mr-20 -mt-20"></div>
-              
-              <!-- Popular Badge -->
-              <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span class="bg-gradient-to-r from-primary-500 to-green-500 text-white px-6 py-2 rounded-full text-sm font-semibold shadow-lg">
-                  🔥 Programa Mais Procurado
-                </span>
-              </div>
+              <!-- deleted duplicate badge -->
               
               <div class="relative text-center">
                 <!-- Price -->
