@@ -4,10 +4,10 @@
       <div class="max-w-6xl mx-auto">
         <!-- Header -->
         <div class="text-center mb-16 animate-on-scroll">
-          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight [text-wrap:balance] max-w-4xl mx-auto">
             Por que o <span class="text-gradient">RAGNAR START</span> é diferente?
           </h2>
-          <p class="text-xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto">
+          <p class="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-prose md:max-w-3xl mx-auto leading-relaxed [text-wrap:balance]">
             Enquanto outros te cobram caro só para te entregar uma loja e te deixar sozinho, 
             aqui eu entro como seu <strong class="text-primary-600 dark:text-primary-400">sócio temporário</strong>.
           </p>
@@ -24,7 +24,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                   </svg>
                 </div>
-                <h3 class="text-2xl font-bold text-gray-900 dark:text-white mt-4">
+                <h3 class="text-2xl font-bold text-gray-900 dark:text-white mt-4 [text-wrap:balance]"> 
                   Outros Fornecedores
                 </h3>
               </div>
@@ -34,25 +34,25 @@
                   <svg class="w-5 h-5 text-red-500 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path>
                   </svg>
-                  <span class="text-gray-700 dark:text-gray-300">Cobram R$ 5.000 - R$ 15.000 de entrada</span>
+                  <span class="text-gray-700 dark:text-gray-300 leading-relaxed">Cobram R$ 5.000 - R$ 15.000 de entrada</span>
                 </li>
                 <li class="flex items-start gap-3">
                   <svg class="w-5 h-5 text-red-500 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path>
                   </svg>
-                  <span class="text-gray-700 dark:text-gray-300">Te entregam a loja e somem</span>
+                  <span class="text-gray-700 dark:text-gray-300 leading-relaxed">Te entregam a loja e somem</span>
                 </li>
                 <li class="flex items-start gap-3">
                   <svg class="w-5 h-5 text-red-500 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path>
                   </svg>
-                  <span class="text-gray-700 dark:text-gray-300">Sem acompanhamento ou suporte</span>
+                  <span class="text-gray-700 dark:text-gray-300 leading-relaxed">Sem acompanhamento ou suporte</span>
                 </li>
                 <li class="flex items-start gap-3">
                   <svg class="w-5 h-5 text-red-500 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path>
                   </svg>
-                  <span class="text-gray-700 dark:text-gray-300">Não se importam se você vende ou não</span>
+                  <span class="text-gray-700 dark:text-gray-300 leading-relaxed">Não se importam se você vende ou não</span>
                 </li>
               </ul>
             </div>
@@ -68,7 +68,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                   </svg>
                 </div>
-                <h3 class="text-2xl font-bold text-gray-900 dark:text-white mt-4">
+                <h3 class="text-2xl font-bold text-gray-900 dark:text-white mt-4 [text-wrap:balance]">
                   RAGNAR START
                 </h3>
                 <span class="inline-block px-3 py-1 bg-primary-500 text-white text-sm font-semibold rounded-full mt-2">
@@ -81,25 +81,25 @@
                   <svg class="w-5 h-5 text-green-500 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                   </svg>
-                  <span class="text-gray-700 dark:text-gray-300"><strong>Sem custo inicial pesado</strong> - apenas R$ 300/mês</span>
+                  <span class="text-gray-700 dark:text-gray-300 leading-relaxed"><strong>Sem custo inicial pesado</strong> - apenas R$ 300/mês</span>
                 </li>
                 <li class="flex items-start gap-3">
                   <svg class="w-5 h-5 text-green-500 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                   </svg>
-                  <span class="text-gray-700 dark:text-gray-300"><strong>Eu só ganho se você vender</strong> (7% comissão)</span>
+                  <span class="text-gray-700 dark:text-gray-300 leading-relaxed"><strong>Eu só ganho se você vender</strong> (7% comissão)</span>
                 </li>
                 <li class="flex items-start gap-3">
                   <svg class="w-5 h-5 text-green-500 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                   </svg>
-                  <span class="text-gray-700 dark:text-gray-300"><strong>Loja completa</strong>, com padrão profissional</span>
+                  <span class="text-gray-700 dark:text-gray-300 leading-relaxed"><strong>Loja completa</strong>, com padrão profissional</span>
                 </li>
                 <li class="flex items-start gap-3">
                   <svg class="w-5 h-5 text-green-500 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                   </svg>
-                  <span class="text-gray-700 dark:text-gray-300"><strong>Gestão e acompanhamento</strong> de verdade por 18 meses</span>
+                  <span class="text-gray-700 dark:text-gray-300 leading-relaxed"><strong>Gestão e acompanhamento</strong> de verdade por 18 meses</span>
                 </li>
               </ul>
             </div>
@@ -111,10 +111,10 @@
           <div class="bg-gradient-to-r from-primary-500 to-green-500 p-8 md:p-12 rounded-3xl text-white relative overflow-hidden">
             <div class="absolute inset-0 bg-black/10"></div>
             <div class="relative">
-              <h3 class="text-2xl md:text-3xl font-bold mb-6">
+              <h3 class="text-2xl md:text-3xl font-bold mb-6 [text-wrap:balance]">
                 👉 Você não está pagando por "um site"
               </h3>
-              <p class="text-xl md:text-2xl mb-8">
+              <p class="text-xl md:text-2xl mb-8 [text-wrap:balance] max-w-3xl mx-auto">
                 Você está entrando em um <strong>programa de aceleração</strong>.
               </p>
               

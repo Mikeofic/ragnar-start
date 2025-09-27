@@ -3,7 +3,7 @@
     <div class="container-custom">
       <div class="max-w-4xl mx-auto text-center">
         <div class="animate-on-scroll">
-          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-8">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-8 tracking-tight [text-wrap:balance]">
             Você já pensou em ter sua própria <span class="text-gradient">loja online</span>, mas...
           </h2>
         </div>
@@ -17,10 +17,10 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
                 </svg>
               </div>
-              <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight [text-wrap:balance]">
                 Os preços que te pediram eram <span class="text-red-600 dark:text-red-400">altos demais</span>
               </h3>
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-gray-600 dark:text-gray-300 leading-relaxed max-w-prose mx-auto [text-wrap:balance]">
                 Orçamentos de R$ 5.000, R$ 10.000 ou mais só para ter uma loja básica funcionando.
               </p>
             </div>
@@ -34,10 +34,10 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
               </div>
-              <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight [text-wrap:balance]">
                 Você não tinha certeza se <span class="text-orange-600 dark:text-orange-400">realmente iria vender</span>
               </h3>
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-gray-600 dark:text-gray-300 leading-relaxed max-w-prose mx-auto [text-wrap:balance]">
                 E se investir tudo isso e não conseguir nem uma venda? O medo de não dar retorno paralisa.
               </p>
             </div>
@@ -51,10 +51,10 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
                 </svg>
               </div>
-              <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight [text-wrap:balance]">
                 Ficou com medo de <span class="text-yellow-600 dark:text-yellow-400">investir e perder dinheiro</span>
               </h3>
-              <p class="text-gray-600 dark:text-gray-300">
+              <p class="text-gray-600 dark:text-gray-300 leading-relaxed max-w-prose mx-auto [text-wrap:balance]">
                 Sem garantias, sem acompanhamento, você fica sozinho depois que a loja fica pronta.
               </p>
             </div>
@@ -71,10 +71,10 @@
                 </svg>
               </div>
             </div>
-            <p class="text-xl md:text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+            <p class="text-xl md:text-2xl font-semibold text-gray-900 dark:text-white mb-4 [text-wrap:balance] leading-tight tracking-tight">
               👉 Esse é o maior motivo pelo qual <span class="text-primary-600 dark:text-primary-400">milhares de pessoas desistem</span> antes mesmo de começar.
             </p>
-            <p class="text-lg text-gray-700 dark:text-gray-300">
+            <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed [text-wrap:balance]">
               E é exatamente aqui que o <strong class="text-primary-600 dark:text-primary-400">RAGNAR START</strong> entra.
             </p>
           </div>

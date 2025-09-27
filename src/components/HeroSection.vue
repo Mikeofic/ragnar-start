@@ -20,17 +20,17 @@
             </span>
           </div>
           
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight tracking-tight max-w-3xl [text-wrap:balance]">
             <span class="text-gradient">Sua loja virtual</span><br>
             pronta e acelerada —<br>
             <span class="text-primary-600 dark:text-primary-400">sem investimento alto inicial</span>
           </h1>
           
-          <p class="text-xl text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
+          <p class="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-4 leading-relaxed max-w-prose md:max-w-3xl [text-wrap:balance]">
             Você sabe que precisa estar no digital. Mas talvez o que te trava hoje seja o custo inicial de ter uma loja bem feita.
           </p>
           
-          <p class="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
+          <p class="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed max-w-prose md:max-w-3xl [text-wrap:balance]">
             O <strong class="text-primary-600 dark:text-primary-400">RAGNAR START</strong> resolve isso: eu monto sua loja, gero tração junto com você e só ganho de verdade quando você vender.
           </p>
           
