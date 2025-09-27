@@ -5,7 +5,7 @@
         <!-- Header -->
         <div class="text-center mb-16 animate-on-scroll">
           <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Por que o <span class="text-gradient">RAGNAR Start</span> é diferente?
+            Por que o <span class="text-gradient">RAGNAR START</span> é diferente?
           </h2>
           <p class="text-xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto">
             Enquanto outros te cobram caro só para te entregar uma loja e te deixar sozinho, 
@@ -58,7 +58,7 @@
             </div>
           </div>
           
-          <!-- RAGNAR Start -->
+          <!-- RAGNAR START -->
           <div class="animate-on-scroll" style="animation-delay: 0.2s;">
             <div class="bg-gradient-to-br from-primary-50 to-green-50 dark:from-primary-900/30 dark:to-green-900/30 p-8 rounded-2xl border border-primary-200 dark:border-primary-800 relative overflow-hidden">
               <div class="absolute top-0 right-0 w-32 h-32 bg-primary-200/30 dark:bg-primary-700/30 rounded-full -mr-16 -mt-16"></div>
@@ -69,7 +69,7 @@
                   </svg>
                 </div>
                 <h3 class="text-2xl font-bold text-gray-900 dark:text-white mt-4">
-                  RAGNAR Start
+                  RAGNAR START
                 </h3>
                 <span class="inline-block px-3 py-1 bg-primary-500 text-white text-sm font-semibold rounded-full mt-2">
                   Sócio Temporário

@@ -7,7 +7,7 @@
           <!-- Brand Column -->
           <div class="md:col-span-2">
             <div class="mb-6">
-              <h3 class="text-2xl font-bold text-gradient mb-4">RAGNAR Start</h3>
+              <h3 class="text-2xl font-bold text-gradient mb-4">RAGNAR START</h3>
               <p class="text-gray-300 leading-relaxed mb-6 max-w-md">
                 Seu parceiro temporário para acelerar seu negócio online. 
                 Criamos, gerenciamos e otimizamos sua loja virtual por 18 meses.
@@ -110,7 +110,7 @@
         <div class="flex flex-col md:flex-row items-center justify-between gap-4">
           <div class="text-center md:text-left">
             <p class="text-gray-400 text-sm">
-              © {{ currentYear }} RAGNAR Start. Todos os direitos reservados.
+              © {{ currentYear }} RAGNAR START. Todos os direitos reservados. CNPJ 62.903.189/0001-80
             </p>
           </div>
           
