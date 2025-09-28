@@ -3,7 +3,7 @@
     <!-- Main Footer Content -->
     <div class="section-padding border-b border-gray-800">
       <div class="container-custom">
-        <div class="grid md:grid-cols-4 gap-8">
+        <div class="grid md:grid-cols-4 gap-8 animate-on-scroll">
           <!-- Brand Column -->
           <div class="md:col-span-2">
             <div class="mb-6">

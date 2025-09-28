@@ -36,6 +36,7 @@
         <ValuePropositionSection />
         <PricingSection />
         <TestimonialsSection />
+        <AboutSection />
         <FAQSection />
         <FinalCTASection />
       </main>
@@ -55,6 +56,7 @@ import SolutionSection from './components/SolutionSection.vue'
 import ValuePropositionSection from './components/ValuePropositionSection.vue'
 import PricingSection from './components/PricingSection.vue'
 import TestimonialsSection from './components/TestimonialsSection.vue'
+import AboutSection from './components/AboutSection.vue'
 import FAQSection from './components/FAQSection.vue'
 import FinalCTASection from './components/FinalCTASection.vue'
 import FooterSection from './components/FooterSection.vue'

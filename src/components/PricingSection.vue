@@ -22,7 +22,7 @@
               </span>
             </div>
             <!-- Main Pricing Card -->
-            <div class="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl p-8 md:p-12 border border-gray-100 dark:border-gray-700 relative z-10 overflow-hidden">
+            <div class="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl p-8 md:p-12 border border-gray-100 dark:border-gray-700 relative z-10 overflow-hidden gradient-border-animated">
               <!-- Background Pattern -->
               <div class="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-primary-100 to-green-100 dark:from-primary-900/30 dark:to-green-900/30 rounded-full -mr-20 -mt-20"></div>
               <!-- deleted duplicate badge -->

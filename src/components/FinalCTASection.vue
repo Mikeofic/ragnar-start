@@ -1,11 +1,11 @@
 <template>
   <section class="section-padding bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 relative overflow-hidden">
-    <!-- Background Elements -->
-    <div class="absolute inset-0 bg-black/20"></div>
+    <!-- Background Elements with Parallax -->
+    <div class="absolute inset-0 bg-black/20 parallax-element" data-parallax-speed="0.3"></div>
     <div class="absolute top-0 left-0 w-full h-full">
-      <div class="absolute top-10 left-10 w-20 h-20 bg-white/10 rounded-full blur-xl"></div>
-      <div class="absolute bottom-20 right-20 w-32 h-32 bg-white/5 rounded-full blur-2xl"></div>
-      <div class="absolute top-1/2 left-1/4 w-16 h-16 bg-white/10 rounded-full blur-lg"></div>
+      <div class="absolute top-10 left-10 w-20 h-20 bg-white/10 rounded-full blur-xl parallax-element" data-parallax-speed="0.4"></div>
+      <div class="absolute bottom-20 right-20 w-32 h-32 bg-white/5 rounded-full blur-2xl parallax-element" data-parallax-speed="0.2"></div>
+      <div class="absolute top-1/2 left-1/4 w-16 h-16 bg-white/10 rounded-full blur-lg parallax-element" data-parallax-speed="0.5"></div>
     </div>
     
     <div class="container-custom relative z-10">
@@ -127,5 +127,28 @@
 </template>
 
 <script setup>
-// No additional logic needed for this component
+import { onMounted, onUnmounted } from 'vue'
+
+let parallaxHandler = null
+
+onMounted(() => {
+  parallaxHandler = () => {
+    const scrolled = window.pageYOffset
+    const parallaxElements = document.querySelectorAll('.parallax-element')
+    
+    parallaxElements.forEach(element => {
+      const speed = element.dataset.parallaxSpeed || 0.5
+      const yPos = -(scrolled * speed)
+      element.style.transform = `translateY(${yPos}px)`
+    })
+  }
+  
+  window.addEventListener('scroll', parallaxHandler)
+})
+
+onUnmounted(() => {
+  if (parallaxHandler) {
+    window.removeEventListener('scroll', parallaxHandler)
+  }
+})
 </script>

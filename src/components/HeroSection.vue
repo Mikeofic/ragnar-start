@@ -1,14 +1,14 @@
 <template>
   <section class="relative min-h-screen flex items-center gradient-bg overflow-hidden">
-    <!-- Background Pattern -->
-    <div class="absolute inset-0 opacity-5">
+    <!-- Background Pattern with Parallax -->
+    <div class="absolute inset-0 opacity-5 parallax-element" data-parallax-speed="0.5">
       <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, rgba(34,197,94,0.3) 1px, transparent 0); background-size: 50px 50px;"></div>
     </div>
     
-    <!-- Floating Elements -->
-    <div class="absolute top-20 left-10 w-20 h-20 bg-primary-200 dark:bg-primary-800 rounded-full opacity-20 animate-pulse-slow"></div>
-    <div class="absolute bottom-32 right-16 w-16 h-16 bg-green-200 dark:bg-green-800 rounded-full opacity-20 animate-pulse-slow" style="animation-delay: 1s;"></div>
-    <div class="absolute top-1/2 left-1/4 w-12 h-12 bg-primary-300 dark:bg-primary-700 rounded-full opacity-20 animate-pulse-slow" style="animation-delay: 2s;"></div>
+    <!-- Floating Elements with Parallax -->
+    <div class="absolute top-20 left-10 w-20 h-20 bg-primary-200 dark:bg-primary-800 rounded-full opacity-20 animate-pulse-slow parallax-element" data-parallax-speed="0.3"></div>
+    <div class="absolute bottom-32 right-16 w-16 h-16 bg-green-200 dark:bg-green-800 rounded-full opacity-20 animate-pulse-slow parallax-element" data-parallax-speed="0.4" style="animation-delay: 1s;"></div>
+    <div class="absolute top-1/2 left-1/4 w-12 h-12 bg-primary-300 dark:bg-primary-700 rounded-full opacity-20 animate-pulse-slow parallax-element" data-parallax-speed="0.2" style="animation-delay: 2s;"></div>
     
     <div class="container-custom relative z-10">
       <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -108,5 +108,42 @@
 </template>
 
 <script setup>
-// Component logic can be added here if needed
+import { onMounted, onUnmounted } from 'vue'
+
+let parallaxElements = []
+let ticking = false
+
+const updateParallax = () => {
+  const scrollY = window.pageYOffset
+  
+  parallaxElements.forEach(element => {
+    const speed = parseFloat(element.dataset.parallaxSpeed) || 0.5
+    const yPos = -(scrollY * speed)
+    element.style.setProperty('--parallax-offset', `${yPos}px`)
+  })
+  
+  ticking = false
+}
+
+const handleScroll = () => {
+  if (!ticking) {
+    requestAnimationFrame(updateParallax)
+    ticking = true
+  }
+}
+
+onMounted(() => {
+  // Initialize parallax elements
+  parallaxElements = document.querySelectorAll('.parallax-element')
+  
+  // Add scroll listener with passive option for better performance
+  window.addEventListener('scroll', handleScroll, { passive: true })
+  
+  // Initial parallax update
+  updateParallax()
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
 </script>
